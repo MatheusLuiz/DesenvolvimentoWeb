@@ -1,65 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvimento Web</title>
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="image/logo.jpg" type="image/x-icon">
 
 </head>
+
 <body>
 
-    <header>
-        
-        <h1>
-            Desenvolvimento Web - Trabalho Juliana Faculdade
-        </h1>
+    <header class="container-fluid">
+
+        <div id="logo-container">
+            <img src="image/logo.jpg" alt="logo" id="logo">
+            <h1>
+                Desenvolvimento Web - Professora Juliana
+            </h1>
+
+        </div>
+
+        <nav id="navbar" class="container">
+
+            <div class="row justify-content-center">
+              <a href="index.html" class="home">Home</a>
+            </div>
+          </nav>
 
     </header>
 
-        <div class="paragrafo">
-            <p>
-                Páginas webs desenvolvidas para testar o conhecimendo em HTML, CSS, Java Script e BootStrap.
-            </p>
-        </div>
+    <div>
+        <p class="paragrafo">
+            Páginas webs desenvolvidas para testar o conhecimendo e habilitades em HTML, CSS, Java Script e BootStrap.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, optio! Eligendi nobis eveniet, repellat
+            sequi ipsam eum? Cupiditate perferendis voluptatem nisi commodi odit amet unde ut accusamus dignissimos
+            esse. Ducimus?
+        </p>
+    </div>
 
-    <section>
+    <section class="container justify-content-center">
 
-        <div class="container buttons-links">
+        <div class="icones">
 
-                <div class="buttons">
+            <div class="btn col-4">
 
-                    <a href="html/formularios.html" class="links">Formulário</a>
+                <a href="html/formularios.html" class="links">Formulário</a>
 
-                </div>
+            </div>
 
-    
 
-                <div class="buttons">
 
-                    <a href="html/paginaProfssional.html" class="links">Página Profissional</a>
+            <div class="btn col-4">
 
-                </div>
+                <a href="html/paginaProfssional.html" class="links">Página Profissional</a>
 
-    
+            </div>
 
-                <div class="buttons">
 
-                    <a href="html/jogos.html" class="links links-down">Jogo</a>
 
-                </div>
+            <div class="btn col-4">
+
+                <a href="html/jogos.html" class="links links-down">Jogo</a>
+
+            </div>
 
         </div>
 
     </section>
 
 
-    <footer class="footer">
+    <footer class="footer container-fluid">
 
-        <p>Página web Desenvolvida por: Matheus Luiz</p>
+        <div>
+
+            <p class="h4">Pagina Web Desenvolvida por Matheus Luiz Felicori de Lucena</p>
+        </div>
 
     </footer>
 
 </body>
+
 </html>
