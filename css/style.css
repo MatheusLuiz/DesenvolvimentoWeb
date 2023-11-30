@@ -27,7 +27,7 @@ div p {
     text-align: center;
     margin: 50px;
     height: 700px;
-    background-image: url(/image/pc.jpg);
+    background-image: url("image/pc.jpg");
     padding: 50px auto;
  }
 
